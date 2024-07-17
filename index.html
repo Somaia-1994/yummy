@@ -1,0 +1,127 @@
+<html>
+<head>
+<link rel="stylesheet" href="./css/all.min.css">
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/styl.css">
+
+<title>Yummy</title>
+<link rel="icon" href="https://routeegy.github.io/YummyExam/imgs/logo.png">
+</head>
+<body>
+    <div id="loading" class=" justify-content-center align-items-center">
+        <span class="loader fs-4 text-light"></span>
+
+    </div>
+    <aside class="d-flex  position-fixed top-0 z-3" id="sideContainer">
+        <div class="justify-content-between flex-column d-flex " id="sideBox">
+
+            <div class="links">
+                <ul class="list-unstyled p-4 text-decoration-none overflow-hidden ">
+                    <li >
+                        <a href="#searchContainer"  id="searchInput">Search</a>
+                    </li>
+                    <li>
+                        <a href="#categoryBox"  id="Category">Categories</a>
+                    </li>
+                    <li>
+                        <a href="#area" id="AreaInput">Area</a>
+                    </li>
+                    <li>
+                        <a href="#IntergatesMeals"id="IngredientsInput">Ingredient</a>
+                    </li>
+                    <li>
+                        <a href="./form.html" id="contactsInput">Contact Us</a>
+                    </li>
+                
+                </ul>
+    
+            </div>
+            <div class="text-white p-4 d-flex justify-content-between flex-column gy-3">
+                <div class="d-flex flex-row ">
+                    <i class="fa-brands fa-facebook p-1"></i>
+                    <i class="fa-brands fa-twitter p-1"></i>
+                    <i class="fa-solid fa-globe p-1"></i>
+                </div>
+               
+                <div>
+                    <p>
+                        Copyright Â© 2019 All Rights
+                        Reserved.</p>
+                </div>
+            </div>
+
+        </div>
+       
+        <nav class="d-flex justify-content-between flex-column justify-content-center text-center  " id="slid">
+            <img src="https://routeegy.github.io/YummyExam/imgs/logo.png" class=" " alt="yummy">
+            <i class="fa-solid fa-bars fs-1 " id="iconBox"></i>
+            <div class="d-flex flex-column mb-4 fs-5">
+                <i class="fa-solid fa-globe pb-1"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+        </nav>
+    </aside>
+<div class="items">
+    <section class="container ">       
+        <div class="row mt-5 gy-4 " id="demo">
+            <div class="col-md-3">
+                <div class="position-relative display-none img-layer overflow-hidden ">
+                    <img src="https://www.themealdb.com/images/media/meals/58oia61564916529.jpg" class="w-100" alt="">
+                    <div class="layer m-auto text-center position-absolute  d-flex align-items-center text-black flex-column justify-content-around">
+                        <h3>corba</h3>
+                    </div>
+                </div>
+                
+            </div>
+            
+        
+        </div>
+            </section>
+        
+            <section class="container nonActive" id="displayDetail">
+                <div class="row py-5 g-4 " id="mealDetails"></div>
+        
+        </section>
+        <section class="container w-75 nonActive" id="search">
+            <div id="searchContainer">
+        
+            </div>
+                    <div class="row py-5 g-4 meals">
+                    </div>
+            </section>
+        
+            <section class="container w-75 nonActive" id="categoryBox">
+          
+                <div class="row py-5 g-4 list" id="listCategry">
+        
+                </div>
+                <div class="row py-5 g-4 meals nonActive" id="specificCategory">
+        
+                </div>
+        </section>
+        <section id="area" class="container nonActive">
+            <div class="row py-5 g-4 list " id="Arealist">
+             
+            </div>
+            <div class="row py-5 g-4 meals nonActive" id="Areameals">
+             
+            </div>
+    </section>
+    <section id="Ingredients" class="container nonActive">
+        <div class="row py-5 g-4 list" id="IntergatesList">
+         
+        </div>
+        <div class="row py-5 g-4 meals nonActive" id="IntergatesMeals">
+         
+        </div>
+    </section>
+</div>
+   
+
+   
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+
+</html>
